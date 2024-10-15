@@ -1,0 +1,115 @@
+body{
+    background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
+    background-position-y:-100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    z-index: 1;
+}
+.tools{
+    display: flex;
+    margin: 0;
+    background-color: rgb(146, 75, 75);
+    height: 60px;
+}
+.tools .socials{
+    margin-left: 1450px;
+    margin-top: 20px;
+}
+.tools .socials i{
+    margin-right: 10px;
+}
+nav{
+    display: flex;
+    background-color: rgba(185, 80, 80, 0.6);
+}
+ul{
+    display: flex;
+    margin-left: 600px;
+}
+ul li{
+    padding-right: 24px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px black;
+}
+nav ul li a:hover{
+    width: 100%;
+    background-color: rgb(22, 22, 17);
+    padding:4px 4px 4px 4px ;
+    transition: 0.6s;
+}
+.circle{
+    background-color: pink;
+    display: flex;
+    margin-left: 1000px;
+}
+.motto{
+    display: flexbox;
+    box-sizing: border-box;
+}
+.motto h3{
+    color: white;
+    margin-top: 100px;
+    margin-left: 400px;
+    font-size: 22px;
+    font-family:cursive;
+    position: absolute;
+    z-index: -1;
+}
+h1{
+    font-size: 150px;
+    width: 50%;
+    margin-top: 120px;
+    margin-left: 400px;
+    color: rgb(8, 66, 121);
+    z-index: -1;
+    text-shadow:5px 5px 5px black ;
+}
+.options{
+    display: flex;
+    height: 200px;
+    margin-left: 400px;
+    margin-top: 130px;
+}
+.learn{
+    display: flex;
+    background-color: rgb(8, 66, 121);
+    height: 28px; padding: 14px;
+}
+.order{
+    display: flex;
+    background-color: rgb(8, 66, 121);
+    height: 28px; padding: 14px;
+    margin-left: 50px;
+}
+.learn .order, a{
+    font-size: 26px;
+    font-family: cursive;
+    text-decoration: solid;
+    color: white;
+}
+.passion {
+    position: relative;
+    -webkit-animation:linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 6s;
+}
+
+@-webkit-keyframes run{
+    0% {
+      left: 0;
+    }
+    0% { 
+      left: calc(100% - 100px); 
+     }
+    30% {
+      left: 0;     
+    }
+}
